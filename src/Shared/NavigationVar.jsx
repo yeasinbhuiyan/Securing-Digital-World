@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '/Group 32.png'
-import profile from '../../public/Frame35.png'
+import profile from '/Frame35.png'
 import './NavigationVar.css'
 import jobs from '/Job.png'
 import candidate from '/CV.png'
