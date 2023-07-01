@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import './GeneralDetails.css'
 const GeneralDetails = () => {
     return (
-        <div className="details-bg py-2 padding-right">
-            <div >
+        <div className="details-bg py-2 ">
+            <div className='padding-right'>
                 <div style={{ padding: '15px' }} className='d-flex justify-content-between align-items-center'>
                     <h1 className='fs-6 fw-semibold'>Full Name</h1>
                     <h2 className='fs-6 fw-normal'>Mr. ANUP ROY</h2>

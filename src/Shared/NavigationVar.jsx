@@ -58,7 +58,7 @@ const NavigationVar = () => {
                                     View Profile
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className='d-flex align-items-center gap-1 fw-bold' href="#action/3.2">
+                                <NavDropdown.Item  className='d-flex align-items-center gap-1 fw-bold' href="#action/3.2">
                                     <FaUserEdit></FaUserEdit>
                                     Edite Profile
                                 </NavDropdown.Item>

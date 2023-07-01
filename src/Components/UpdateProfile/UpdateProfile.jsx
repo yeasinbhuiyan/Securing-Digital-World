@@ -1,8 +1,8 @@
-import BankDetails from "./BankDetails";
-import ContactDetails from "./ContactDetails";
-import GeneralDetails from "./GeneralDetails";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import GeneralDetails from "./GeneralDetails/GeneralDetails";
+import BankDetails from './BankDetails/BankDetails';
+import ContactDetails from './ContactDetails/ContactDetails';
 
 
 const UpdateProfile = () => {
@@ -16,7 +16,7 @@ const UpdateProfile = () => {
                 </TabList>
 
                 <TabPanel>
-                    <GeneralDetails></GeneralDetails>
+                   <GeneralDetails></GeneralDetails>
 
                 </TabPanel>
                 <TabPanel>
