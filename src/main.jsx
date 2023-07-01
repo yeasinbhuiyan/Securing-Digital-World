@@ -10,6 +10,7 @@ import Main from './Main/Main.jsx';
 import Settings from './Components/Settings/Settings';
 import UpdateProfile from './Components/UpdateProfile/UpdateProfile';
 import Privacy from './Components/Settings/Privacy/Privacy';
+import ChangePassword from './Components/Settings/Security/ChangePassword/ChangePassword';
 
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/update-profile',
         element: <UpdateProfile></UpdateProfile>
+      },
+      {
+        path: '/change-password',
+        element: <ChangePassword></ChangePassword>
       }
 
     ]
