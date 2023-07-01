@@ -1,18 +1,57 @@
-
-.details-bg{
+.details-bg {
     background-color: #E6F7FF;
-    
+
 }
 
 
-.edite-link{
+.edite-link {
     font-size: 13px;
     text-decoration: none;
     font-weight: bolder;
 }
 
 
-.margin-right{
+.margin-right {
     margin-right: 10px;
     width: 50%;
+}
+
+.padding-right {
+    padding-right: 60px;
+}
+
+.reffered-margin-right {
+    /* margin-right: 0px; */
+    width: 46%;
+
+}
+
+
+.btn-primary {
+    background-color: #133D7A;
+    color: aliceblue;
+    border-radius: 0px;
+    border-radius: 4px;
+    border: #2c255c 2px solid ;
+
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(30, 55, 89);
+    color: aliceblue;
+}
+.btn-cancel {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 4px;
+    border: #8c8c8c 2px solid ;
+
+
+}
+
+.btn-cancel:hover {
+    background-color: rgb(218, 217, 217);
+    color: black;
+    border: #8c8c8c 2px solid ;
 }
