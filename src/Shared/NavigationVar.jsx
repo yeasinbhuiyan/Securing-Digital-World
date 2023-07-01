@@ -69,7 +69,7 @@ const NavigationVar = () => {
                                 </NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
 
-                                <NavDropdown.Item className='d-flex align-items-center gap-1 fw-bold' href="#action/3.4">
+                                <NavDropdown.Item  className='d-flex align-items-center gap-1 fw-bold' href="#action/3.4">
                                     <MdAdminPanelSettings></MdAdminPanelSettings>
                                     Privacy Settings
                                 </NavDropdown.Item>

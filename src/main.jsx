@@ -9,6 +9,7 @@ import {
 import Main from './Main/Main.jsx';
 import Settings from './Components/Settings/Settings';
 import UpdateProfile from './Components/UpdateProfile/UpdateProfile';
+import Privacy from './Components/Settings/Privacy/Privacy';
 
 
 const router = createBrowserRouter([

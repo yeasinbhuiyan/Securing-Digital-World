@@ -1,0 +1,16 @@
+.privacy-bg {
+    background-color: #E6F7FF;
+    height: 600px;
+}
+
+.privacy-btn-relative {
+    position: relative;
+
+ 
+}
+.privacy-btn {
+
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+}

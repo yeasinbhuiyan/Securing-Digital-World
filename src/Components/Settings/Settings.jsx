@@ -1,8 +1,27 @@
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+import Privacy from './Privacy/Privacy';
+import Security from './Security/Security';
 
 const Settings = () => {
     return (
-        <div>
-            <h1 className="fs-1 text-black fw-bold">This is settings page</h1>
+        <div style={{ width: '80%', padding: '20px' }}>
+            <Tabs>
+                <TabList>
+                    <Tab>Privacy</Tab>
+                    <Tab>Security</Tab>
+
+                </TabList>
+
+             
+                <TabPanel>
+                    <Privacy></Privacy>
+                </TabPanel>
+                <TabPanel>
+                    <Security></Security>
+                </TabPanel>
+            </Tabs>
+
         </div>
     );
 };
