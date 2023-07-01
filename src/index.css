@@ -1,0 +1,5 @@
+
+
+.sidebar-a {
+  @apply d-flex align-items-center fw-semibold  gap-5 text-black
+}

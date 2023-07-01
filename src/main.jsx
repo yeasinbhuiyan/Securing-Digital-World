@@ -7,12 +7,25 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Main from './Main/Main.jsx';
+import Settings from './Components/Settings/Settings';
+import UpdateProfile from './Components/UpdateProfile/UpdateProfile';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Main></Main>
+    element: <Main></Main>,
+    children: [
+      {
+        path: '/settings',
+        element: <Settings></Settings>
+      },
+      {
+        path: '/update-profile',
+        element: <UpdateProfile></UpdateProfile>
+      }
+
+    ]
   }
 ])
 
