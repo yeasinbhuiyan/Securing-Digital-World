@@ -1,14 +1,18 @@
+import { Container } from "react-bootstrap";
 import NavigationVar from "../Shared/NavigationVar";
+import LeftSideBar from "../Components/LeftSideBar/LeftSideBar";
+import RightSideBar from "../Components/RightSideBar/RightSideBar";
 
 const Main = () => {
     return (
         <div>
             <NavigationVar></NavigationVar>
 
-            <div className="d-flex align-items-center justify-content-center">
-                <h1 className="">Hello World</h1>
-                <button className="btn btn-primary">submit </button>
-            </div>
+            <Container className="d-flex justify-content-between">
+                <LeftSideBar></LeftSideBar>
+                <RightSideBar></RightSideBar>
+
+            </Container>
 
         </div>
     );

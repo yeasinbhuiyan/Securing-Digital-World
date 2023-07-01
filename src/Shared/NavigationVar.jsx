@@ -17,7 +17,7 @@ import { MdAdminPanelSettings } from 'react-icons/md';
 
 const NavigationVar = () => {
     return (
-        <>
+        <div>
             <Navbar expand="lg" className="" >
                 <Container>
                     <Navbar.Brand href="#home">
@@ -82,13 +82,13 @@ const NavigationVar = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
-            <hr className='text-gray' style={{ width: '100%', margin: 0 }} />
-
+            <hr className='text-gray' style={{ width: '100%', marginTop: '-18px' }} />
 
 
 
-        </>
+
+
+        </div>
     );
 }
 
