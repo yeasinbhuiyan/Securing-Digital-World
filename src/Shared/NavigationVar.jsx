@@ -53,27 +53,27 @@ const NavigationVar = () => {
                                 </div>}
 
                                 id="basic-nav-dropdown">
-                                <NavDropdown.Item className='d-flex align-items-center gap-1 fw-bold' href="#action/3.1">
+                                <NavDropdown.Item className='d-flex align-items-center p-2 gap-1 fw-semibold' href="#action/3.1">
                                     <CgProfile></CgProfile>
                                     View Profile
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item  className='d-flex align-items-center gap-1 fw-bold' href="#action/3.2">
+                                <NavDropdown.Item  className='d-flex align-items-center p-2 gap-1 fw-semibold' href="#action/3.2">
                                     <FaUserEdit></FaUserEdit>
                                     Edite Profile
                                 </NavDropdown.Item>
 
-                                <NavDropdown.Item className='d-flex align-items-center gap-1 fw-bold' href="#action/3.3">
+                                <NavDropdown.Item className='d-flex align-items-center p-2 gap-1 fw-semibold' href="#action/3.3">
                                     <FiSettings></FiSettings>
                                     Security Profile
                                 </NavDropdown.Item>
                                 {/* <NavDropdown.Divider /> */}
 
-                                <NavDropdown.Item  className='d-flex align-items-center gap-1 fw-bold' href="#action/3.4">
+                                <NavDropdown.Item  className='d-flex align-items-center p-2 gap-1 fw-semibold' href="#action/3.4">
                                     <MdAdminPanelSettings></MdAdminPanelSettings>
                                     Privacy Settings
                                 </NavDropdown.Item>
-                                <NavDropdown.Item className='d-flex align-items-center gap-1 fw-bold' href="#action/3.5">
+                                <NavDropdown.Item className='d-flex align-items-center p-2 gap-1 fw-semibold' href="#action/3.5">
                                     <CiLogout></CiLogout>
                                     Logout
                                 </NavDropdown.Item>

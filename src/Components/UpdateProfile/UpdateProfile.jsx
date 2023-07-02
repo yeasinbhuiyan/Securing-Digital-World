@@ -7,7 +7,7 @@ import ContactDetails from './ContactDetails/ContactDetails';
 
 const UpdateProfile = () => {
     return (
-        <div style={{width: '80%' , padding: '20px'}}>
+        <div style={{width: '70%' , padding: '40px', paddingTop: 0}}>
             <Tabs>
                 <TabList>
                     <Tab>General Details</Tab>

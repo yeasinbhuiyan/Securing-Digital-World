@@ -6,10 +6,10 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
     return (
-        <div>
+        <div >
             <NavigationVar></NavigationVar>
 
-            <Container className="d-flex justify-content-between">
+            <Container style={{marginTop: '40px'}} className="d-flex justify-content-between">
 
 
                 <LeftSideBar></LeftSideBar>
