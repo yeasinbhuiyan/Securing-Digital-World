@@ -17,3 +17,27 @@
 
 }
 
+.sidebar-a {
+    text-decoration: none;
+  
+    font-size: 16px;
+    gap: 5px;
+    padding-left: 14px;
+   
+
+}
+
+.mt-2{
+    margin-top: 6px;
+}
+
+
+.sm-link{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 13px;
+    padding-left: 50px;
+
+
+}

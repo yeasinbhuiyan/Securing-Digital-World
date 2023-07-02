@@ -75,6 +75,8 @@ const ContactDetails = () => {
                 <Link className='edite-link'>Edite</Link>
 
             </div>
+
+
             <div style={{ padding: '15px' }} className='d-flex align-items-center'>
 
                 <h1 style={{ width: '100%' }} className='fs-6 fw-semibold flex-grow-1'>
@@ -90,6 +92,8 @@ const ContactDetails = () => {
                 <Link className='edite-link'>Edite</Link>
 
             </div>
+
+            
             <div style={{ padding: '15px' }} className='d-flex align-items-center'>
 
                 <h1 style={{ width: '100%' }} className='fs-6 fw-semibold flex-grow-1'>
