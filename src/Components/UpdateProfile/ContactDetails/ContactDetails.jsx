@@ -14,7 +14,7 @@ const ContactDetails = () => {
 
                 </h1>
 
-                <Link className='edite-link  '>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Email Id" , value : "anuproybca@gmail.com"}} className='edite-link'>Edite</Link>
 
             </div>
 
@@ -29,7 +29,7 @@ const ContactDetails = () => {
 
                 </h1>
 
-                <Link className='edite-link  '>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Alt. Email Id" , value : "ANUP ROY"}} className='edite-link'>Edite</Link>
 
             </div>
 
@@ -42,7 +42,7 @@ const ContactDetails = () => {
                     <span className="fw-light name-left">7076401049</span>
                 </h1>
 
-                <Link className='edite-link'>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Contact Number" , value : "7076401049"}} className='edite-link'>Edite</Link>
 
             </div>
 
@@ -54,7 +54,7 @@ const ContactDetails = () => {
                 </h1>
 
 
-                <Link className='edite-link'>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Alternate Number" , value : "1234567890"}} className='edite-link'>Edite</Link>
 
             </div>
 
@@ -72,7 +72,7 @@ const ContactDetails = () => {
 
 
 
-                <Link className='edite-link'>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Nominee Name" , value : "Anup Roy"}} className='edite-link'>Edite</Link>
 
             </div>
 
@@ -89,7 +89,7 @@ const ContactDetails = () => {
 
 
 
-                <Link className='edite-link'>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Nominee Email Id" , value : "anuproy@gmail.com"}} className='edite-link'>Edite</Link>
 
             </div>
 
@@ -106,7 +106,7 @@ const ContactDetails = () => {
 
 
 
-                <Link className='edite-link'>Edite</Link>
+                <Link to='/edite' state={{keyWord : "Edite Contact Number" , value : "7076401049"}} className='edite-link'>Edite</Link>
 
             </div>
 

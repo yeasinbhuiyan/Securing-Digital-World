@@ -15,7 +15,7 @@ const GeneralDetails = () => {
                 <div style={{ padding: '15px' }} className='d-flex align-items-center'>
                     <h1 className='fs-6 margin-right  fw-semibold'>Profile Picture</h1>
 
-                    <Link to='/update' state={"Update Profile Picture"} className='edite-link'>Update</Link>
+                    <Link to='/update' state={"Update Profile Picture Url"} className='edite-link'>Update</Link>
 
                 </div>
 

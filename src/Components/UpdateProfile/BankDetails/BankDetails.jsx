@@ -15,7 +15,8 @@ const BankDetails = () => {
 
                     </h1>
 
-                    <Link className='edite-link  '>Edite</Link>
+                    <Link to='/edite' state={{keyWord : "Edite Ac. Holder Name" , value : "Anup Roy"}} className='edite-link'>Edite</Link>
+
 
                 </div>
 
@@ -30,7 +31,8 @@ const BankDetails = () => {
 
                     </h1>
 
-                    <Link className='edite-link  '>Edite</Link>
+                    <Link to='/edite' state={{keyWord : "Edite Bank Name" , value : "Paytm Bank"}} className='edite-link'>Edite</Link>
+
 
                 </div>
 
@@ -43,7 +45,7 @@ const BankDetails = () => {
                         <span className="fw-light name-left">917076401049</span>
                     </h1>
 
-                    <Link className='edite-link'>Edite</Link>
+                    <Link to='/edite' state={{keyWord : "Edite Account Number" , value : "917076401049"}} className='edite-link'>Edite</Link>
 
                 </div>
 
@@ -55,7 +57,7 @@ const BankDetails = () => {
                     </h1>
 
 
-                    <Link className='edite-link'>Edite</Link>
+                    <Link to='/edite' state={{keyWord : "Edite UPI Id" , value : "7076401049@paytm"}} className='edite-link'>Edite</Link>
 
                 </div>
 
@@ -73,7 +75,7 @@ const BankDetails = () => {
 
 
 
-                    <Link className='edite-link'>Edite</Link>
+                    <Link to='/edite' state={{keyWord : "Edite Referred Id" , value : "REF1234ABCD"}} className='edite-link'>Edite</Link>
 
                 </div>
 
