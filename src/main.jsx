@@ -11,6 +11,8 @@ import Settings from './Components/Settings/Settings';
 import UpdateProfile from './Components/UpdateProfile/UpdateProfile';
 import Privacy from './Components/Settings/Privacy/Privacy';
 import ChangePassword from './Components/Settings/Security/ChangePassword/ChangePassword';
+import UpdatePicture from './Components/UpdateProfile/GeneralDetails/UpdatePicture';
+import Edite from './Components/UpdateProfile/GeneralDetails/Edite';
 
 
 const router = createBrowserRouter([
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
       {
         path: '/change-password',
         element: <ChangePassword></ChangePassword>
+      },
+      {
+        path: '/update',
+        element: <UpdatePicture></UpdatePicture>
+      },
+      {
+        path: '/edite',
+        element: <Edite></Edite>
       }
 
     ]
